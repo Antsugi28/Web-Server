@@ -10,9 +10,8 @@ const app = express()
 [ROUTE] '/'
 [Response] => Hello world!
  */
-app.get('/me', (req, res) => {
-    const username = 'anggiseptrianaputri'
-    res.send(`Dicoding Username: ${username}`)
+app.get('/', (req, res) => {
+    res.send('anggiseptrianaputri')
 })
 
 /*
