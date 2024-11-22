@@ -11,7 +11,7 @@ const app = express()
 [Response] => Hello world!
  */
 app.get('/', (req, res) => {
-    res.send('Membangun web server oleh Anggi Septriana Putri\n')
+    res.send('Anggi Septriana Putri\n')
 })
 
 /*
