@@ -10,8 +10,9 @@ const app = express()
 [ROUTE] '/'
 [Response] => Hello world!
  */
-app.get('/', (req, res) => {
-    res.send('Anggi Septriana Putri\n')
+app.get('/me', (req, res) => {
+    const username = 'AnggiSeptrianaPutri'; // Ganti dengan username yang diinginkan
+    res.send(`Username: ${username}`);
 })
 
 /*
