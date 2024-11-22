@@ -11,7 +11,7 @@ const app = express()
 [Response] => Hello world!
  */
 app.get('/me', (req, res) => {
-    const username = 'Anggi Septriana Putri'
+    const username = 'anggiseptrianaputri'
     res.send(`Dicoding Username: ${username}`)
 })
 
