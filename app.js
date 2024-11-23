@@ -11,6 +11,10 @@ const app = express()
 [Response] => Hello world!
  */
 app.get('/', (req, res) => {
+    res.send('Hello world!\n')
+})
+
+app.get('/me', (req, res) => {
     res.send('anggiseptrianaputri')
 })
 
